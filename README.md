@@ -30,11 +30,31 @@
 
     ordinal : (순서형, 정렬된 요인) 값들 사이에 분명한 순위가 있는 범주형 데이터
 
-    
-
     object : (객체) 값을 가진 것, 데이터를 담을 거
 
     rectangular data : (테이블 데이터) 이차원 행렬로 이루어진 데이터
 
-    data frame : 
+    data frame : (데이터 프레임) 이차원 행렬로 이루어진 데이터
+
+    feature : (열, 특징, 속성, 입력, predictor, 예측변수, 변수)
+
+    outcome : (결과, 종속변수, 응답, 목표, 출력)
+
+    record : (행, 기록값, case, 사건, 사례, 예제, 관측값, 패턴, 샘플)
+
+    indicator variable : (지표변수, dummy variable, 더미) 이진 변수
+
+    response variable : (응답변수)
+
+    dependent variable : (종속변수)
+
+    predictor variable : (예측변수)
+
+    target : (목표)
+
+    time-series data : (시계열 데이터)
+
+    spatial data : (공간 데이터) 지리정보분야에서 object (객체)는 하나의 실체로 인식될 수 있는 것들(건물,도로,필지)와 위치 정보를 뜻하고, field (필드)는 일정 공간 상에 연속적으로 분포된 특정 계량값들(기온, 수온, 압력)을 뜻한다.
+
+    graph data : (그래프 데이터) 추상적인 관계 데이터, 소셜 네트워크 데이터, 물류 중심지 데이터, 그래프 구조는 네트워크 최적화나 추천 시스템에 유용하다.
 
