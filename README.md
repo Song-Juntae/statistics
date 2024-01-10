@@ -4,7 +4,7 @@
 
 ## terminology differences : (용어 차이) 통계학이랑 다른 분야랑 용어 차이가 있다.
 
-## data analysis
+### data analysis
 
     inference : (추론) 적은 표본을 가지고 더 큰 모집단에 대한 결론을 도출하기 위한 일련의 복잡한 과정
 
@@ -60,7 +60,27 @@
 
     typical value : (대푯값) "typical" or "middle" 은 "central tendancy (중심경향성)", 대부분의 값이 어디 있는지를 나타내는 추정값, 산술평균과는 조금 다른 "일반적인" 평균 같은 것들. #중요개념 
 
-    mean : (평균, average)
+    mean : (평균, average) 모든 값의 총합을 개수로 나눈 값
 
-    weighted mean : 
+    weighted mean : (가중평균, weighted average) 가중치를 곱합 값의 총합을 가중치의 총합으로 나눈 값
+
+#### 어떤 값들이 본래 다른 값들에 비해 큰 변화량을 가질 때, 예로 한 센서의 정확도가 떨어진다면 그 센서에서 나온 데이터에는 낮은 가중치를 주는 것이 합리적이고, 데이터가 부족한 관심있는 그룹에 더 높은 가중치를 적용할 필요가 있을 수도 있다.
+
+    median : (중간값, percentile, 50번째 백분위수) 데이터에서 가장 가운데 위치한 값 
+
+    percentile : (백분위수, quantile, 분위수) 전체 데이터의 P %를 아래에 두는 값
+
+    weighted median : (가중 중간값) 데이터를 정렬한 후, 각 가중치값을 위에서부터 더할 때, 총합의 중간이 위치하는 데이터 값
+
+    trimmed mean : (절사평균, truncated mean, 절단평균) 정해진 개수의 extreme value, 극단값을 제외한 나머지 값들의 평균
+
+    robust : (로버스트하다, resistant, 저항성있다) 극단값들에 민감하지 않다는 것을 의미한다
+
+    outlier : (특잇값, 극단값) 대부분의 값과 매우 다른 데이터 값
+
+    anomaly detection : (이상 검출) 일반적으로 분석에서 특잇값들은 제거되지만, 이상 검출에서는 아니다.
+
+    estimate : (추정값) 데이터로부터 계산된 값
+
+    metric : (측정지표)
 
